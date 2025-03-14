@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat+Alternates:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+    url("/assets/img/backround.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  @apply max-w-[174px] mx-auto;
+  padding-left: 174px;
+  padding-right: 174px;
+}
+.custom-img {
+  width: 133px;
+  height: 133px;
+}
+/* Custom Font Classes - Use if you need more specific control */
+.font-inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.font-inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.font-inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.font-montserrat-light {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.font-montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.font-montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.font-montserrat-semibold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.font-montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.font-montserrat-extrabold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.font-montserrat-alternates-light {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+}
+
+.font-montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+}
+
+.font-montserrat-alternates-medium {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+}
+
+.font-montserrat-alternates-semibold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+}
