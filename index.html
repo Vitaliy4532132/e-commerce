@@ -9,81 +9,87 @@
   </head>
   <body>
     <body>
-      <header class="container flex items-center justify-between mt-5">
-        <form action="" class="flex w-1/3 items-center gap-2">
-          <div
-            class="flex items-center border-1 border border-white outline-none rounded-full bg-transparent px-4 py-2 h-[30px] max-w-[225px] ml-[31px]"
-          >
+      <header class="">
+        <div class="flex items-center justify-between mt-5 px-[220px]">
+          <form action="" class="flex w-1/3 items-center gap-2">
+            <div
+              class="flex items-center border-1 border border-white outline-none rounded-full bg-transparent px-4 py-2 h-[30px] max-w-[225px] ml-[31px]"
+            >
+              <img
+                :class="size-[11px] mr-[4px]"
+                src="/assets/icons/lupa.svg"
+                alt="lupa"
+                class="size-5"
+              />
+              <input
+                type="text"
+                placeholder="Пошук"
+                class="w-full px-3 py-1 border-none rounded-md text-white text-[12px] bg-transparent outline-none"
+              />
+            </div>
+          </form>
+          <div class="w-1/3 flex justify-center items-center">
             <img
-              :class="size-[11px] mr-[4px]"
-              src="/assets/icons/lupa.svg"
-              alt="lupa"
-              class="size-5"
-            />
-            <input
-              type="text"
-              placeholder="Пошук"
-              class="w-full px-3 py-1 border-none rounded-md text-white text-[12px] bg-transparent outline-none"
+              class="max-w-[184px] max-h-[63px]"
+              src="/assets/img/logo.png"
+              alt="Logo"
+              class="h-10"
             />
           </div>
-        </form>
-        <div class="w-1/3 flex justify-center items-center">
-          <img
-            class="max-w-[184px] max-h-[63px]"
-            src="/assets/img/logo.png"
-            alt="Logo"
-            class="h-10"
-          />
-        </div>
 
-        <div class="w-1/3 flex justify-end items-center gap-8">
-          <div class="flex gap-[11px]">
-            <p class="text-white font-inter font-normal">ENG</p>
-            <img src="/assets/icons/stick.svg" alt="stick" />
-            <p class="text-gray-400 font-inter font-normal">UA</p>
-          </div>
+          <div class="w-1/3 flex justify-end items-center gap-8">
+            <div class="flex gap-[11px]">
+              <p class="text-white font-inter font-normal">ENG</p>
+              <img src="/assets/icons/stick.svg" alt="stick" />
+              <p class="text-gray-400 font-inter font-normal">UA</p>
+            </div>
 
-          <div class="flex gap-[30px]">
-            <img class="size-6" src="/assets/icons/basket.svg" alt="basket" />
-            <img class="size-6" src="/assets/icons/like.svg" alt="like" />
+            <div class="flex gap-[30px]">
+              <img class="size-6" src="/assets/icons/basket.svg" alt="basket" />
+              <img class="size-6" src="/assets/icons/like.svg" alt="like" />
+            </div>
           </div>
         </div>
       </header>
-      <main class="container relative">
-        <section>
-          <h1
-            class="text-[#F0F0F0] font-montserrat font-extrabold max-w-[542px] text-[82px] align-top text-left leading-[95%] uppercase pt-[151px]"
-          >
-            masons
-            <span
-              class="text-[#FFC700] [text-shadow:_0_0px_15px_rgb(255_199_0_/_0.8)]"
+      <main class="">
+        <section class="flex px-[170px] h-[880px]">
+          <div>
+            <h1
+              class="text-[#F0F0F0] font-montserrat font-extrabold max-w-[542px] text-[82px] align-top text-left leading-[95%] uppercase pt-[151px]"
             >
-              branding
-            </span>
-            wordshop
-          </h1>
-          <p
-            class="text-[#A8A8A8] font-montserrat font-normal text-24 max-w-[500px] align-top text-left mt-[36px] mb-[46px]"
-          >
-            Високоякісний друк Брендування одягу та аксесуарів
-          </p>
-          <button
-            class="bg-[#FFC700] w-full max-w-[200px] h-[60px] text-[#1C1C1C] font-extrabold font-montserrat text-[20px] shadow-[0_0px_15px_#FFC700]"
-          >
-            Каталог
-          </button>
-          <img
-            class="absolute top-[-175px] left-[44%] max-w-[675px] h-[1000px]"
-            src="/assets/img/man.png"
-            alt="man"
-          />
-          <img
-            class="absolute top-[-125px] left-[33%] -rotate-12 z-[-1] max-w-[967px] h-[969px]"
-            src="/assets/img/triangle.png"
-            alt="triangle"
-          />
+              masons
+              <span
+                class="text-[#FFC700] [text-shadow:_0_0px_15px_rgb(255_199_0_/_0.8)]"
+              >
+                branding
+              </span>
+              wordshop
+            </h1>
+            <p
+              class="text-[#A8A8A8] font-montserrat font-normal text-24 max-w-[500px] align-top text-left mt-[36px] mb-[46px]"
+            >
+              Високоякісний друк Брендування одягу та аксесуарів
+            </p>
+            <button
+              class="bg-[#FFC700] w-full max-w-[200px] h-[60px] text-[#1C1C1C] font-extrabold font-montserrat text-[20px] shadow-[0_0px_15px_#FFC700]"
+            >
+              Каталог
+            </button>
+          </div>
+          <div class="relative h-[800px]">
+            <img
+              class="-translate-y-40 -translate-x-32"
+              src="/assets/img/man.png"
+              alt="man"
+            />
+            <!-- <img
+              class="absolute -z-10 max-w-[967px] h-[969px] -top-[21%] -left-[46%]"
+              src="/assets/img/triangle.png"
+              alt="triangle"
+            /> -->
+          </div>
         </section>
-        <section class="mt-[500px]">
+        <section class="mt-[150px] px-[170px]">
           <div class="">
             <h2
               class="text-gray-100 font-bold font-montserrat text-center text-72 max-w-[534px] mx-auto"
@@ -100,7 +106,7 @@
             class="grid grid-cols-3 items-center gap-x-[42px] gap-y-[133px] mt-[83px]"
           >
             <div
-              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E]"
+              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E] after:size-full after:absolute after:top-0 after:left-0 after:bg-[#050505] after:-rotate-[74deg] after:translate-y-64 relative"
             >
               <h2
                 class="text-gray-100 font-montserrat text-24 font-bold max-w-[181px] uppercase text-center mt-[33px]"
@@ -118,33 +124,13 @@
                 Детальніше
               </button>
               <img
-                class="custom-img"
+                class="custom-img relative z-10"
                 src="/assets/img/printing-machine.png"
                 alt="printing-machine"
               />
             </div>
             <div
-              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E]"
-            >
-              <h2
-                class="text-gray-100 font-montserrat text-24 font-bold max-w-[181px] uppercase text-center mt-[33px]"
-              >
-                Друк флекс/флок плівкою
-              </h2>
-              <p
-                class="text-gray-100 font-montserrat_alternates text-16 font-light max-w-[176px] text-left"
-              >
-                Якісний друк <br />При малих тиражах
-              </p>
-              <button
-                class="font-montserrat text-16 font-medium text-yellow h-[50px] max-w-[150px] bg-black-400 w-full mt-[20px] mb-[30px]"
-              >
-                Детальніше
-              </button>
-              <img class="custom-img" src="/assets/img/fever.png" alt="fever" />
-            </div>
-            <div
-              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E]"
+              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E] after:size-full after:absolute after:top-0 after:left-0 after:bg-[#050505] after:-rotate-[74deg] after:translate-y-64 relative"
             >
               <h2
                 class="text-gray-100 font-montserrat text-24 font-bold max-w-[181px] uppercase text-center mt-[33px]"
@@ -162,13 +148,37 @@
                 Детальніше
               </button>
               <img
-                class="custom-img"
+                class="custom-img relative z-10"
+                src="/assets/img/fever.png"
+                alt="fever"
+              />
+            </div>
+            <div
+              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E] after:size-full after:absolute after:top-0 after:left-0 after:bg-[#050505] after:-rotate-[74deg] after:translate-y-64 relative"
+            >
+              <h2
+                class="text-gray-100 font-montserrat text-24 font-bold max-w-[181px] uppercase text-center mt-[33px]"
+              >
+                Друк флекс/флок плівкою
+              </h2>
+              <p
+                class="text-gray-100 font-montserrat_alternates text-16 font-light max-w-[176px] text-left"
+              >
+                Якісний друк <br />При малих тиражах
+              </p>
+              <button
+                class="font-montserrat text-16 font-medium text-yellow h-[50px] max-w-[150px] bg-black-400 w-full mt-[20px] mb-[30px]"
+              >
+                Детальніше
+              </button>
+              <img
+                class="custom-img relative z-10"
                 src="/assets/img/printer.png"
                 alt="printer"
               />
             </div>
             <div
-              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E]"
+              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E] after:size-full after:absolute after:top-0 after:left-0 after:bg-[#050505] after:-rotate-[74deg] after:translate-y-64 relative"
             >
               <h2
                 class="text-gray-100 font-montserrat text-24 font-bold max-w-[181px] uppercase text-center mt-[33px]"
@@ -186,33 +196,13 @@
                 Детальніше
               </button>
               <img
-                class="custom-img"
+                class="custom-img relative z-10"
                 src="/assets/img/printing-machine.png"
                 alt="printing-machine"
               />
             </div>
             <div
-              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E]"
-            >
-              <h2
-                class="text-gray-100 font-montserrat text-24 font-bold max-w-[181px] uppercase text-center mt-[33px]"
-              >
-                Друк флекс/флок плівкою
-              </h2>
-              <p
-                class="text-gray-100 font-montserrat_alternates text-16 font-light max-w-[176px] text-left"
-              >
-                Якісний друк <br />При малих тиражах
-              </p>
-              <button
-                class="font-montserrat text-16 font-medium text-yellow h-[50px] max-w-[150px] bg-black-400 w-full mt-[20px] mb-[30px]"
-              >
-                Детальніше
-              </button>
-              <img class="custom-img" src="/assets/img/fever.png" alt="fever" />
-            </div>
-            <div
-              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E]"
+              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E] after:size-full after:absolute after:top-0 after:left-0 after:bg-[#050505] after:-rotate-[74deg] after:translate-y-64 relative"
             >
               <h2
                 class="text-gray-100 font-montserrat text-24 font-bold max-w-[181px] uppercase text-center mt-[33px]"
@@ -230,14 +220,38 @@
                 Детальніше
               </button>
               <img
-                class="custom-img"
+                class="custom-img relative z-10"
+                src="/assets/img/fever.png"
+                alt="fever"
+              />
+            </div>
+            <div
+              class="flex flex-col overflow-hidden items-center max-w-[334px] h-[408px] bg-[#0E0E0E] after:size-full after:absolute after:top-0 after:left-0 after:bg-[#050505] after:-rotate-[74deg] after:translate-y-64 relative"
+            >
+              <h2
+                class="text-gray-100 font-montserrat text-24 font-bold max-w-[181px] uppercase text-center mt-[33px]"
+              >
+                Друк флекс/флок плівкою
+              </h2>
+              <p
+                class="text-gray-100 font-montserrat_alternates text-16 font-light max-w-[176px] text-left"
+              >
+                Якісний друк <br />При малих тиражах
+              </p>
+              <button
+                class="font-montserrat text-16 font-medium text-yellow h-[50px] max-w-[150px] bg-black-400 w-full mt-[20px] mb-[30px]"
+              >
+                Детальніше
+              </button>
+              <img
+                class="custom-img relative z-10"
                 src="/assets/img/printer.png"
                 alt="printer"
               />
             </div>
           </div>
         </section>
-        <section class="mt-[223px]">
+        <section class="mt-[223px] relative px-[220px] max-w-[1314px]">
           <div>
             <h2
               class="font-montserrat font-semibold text-48 text-left text-white"
@@ -250,30 +264,450 @@
               Це може бути на тобі
             </p>
           </div>
-          <div class="flex gap-4 relative">
-            <img
-              class="absolute left-[40%] -z-0"
-              src="/assets/img/back.png"
-              alt="back"
-            />
-            <img
-              class="absolute left-[80%] -z-0"
-              src="/assets/img/back.png"
-              alt="back"
-            />
-            <div>
-              <img class="" src="/assets/img/back.png" alt="back" />
+          <img
+            class="-translate-x-24 translate-y-60"
+            src="/assets/icons/left.svg"
+            alt="left"
+          />
+          <img
+            class="absolute left-[93%] top-[59%]"
+            src="/assets/icons/right.svg"
+            alt="right"
+          />
+          <div class="flex gap-10 justify-between mt-14 items-center">
+            <div class="relative h-96">
+              <img
+                class="absolute -z-10 scale-[2] translate-x-6 translate-y-8"
+                src="/assets/img/back.png"
+                alt="back"
+              />
+              <img src="/assets/img/skinny.png" alt="skinny" />
             </div>
-            <div>
-              <img src="/assets/img/skinny.png" alt="back" />
+            <div class="relative h-96">
+              <img
+                class="absolute -z-10 scale-[2] translate-x-6 translate-y-8"
+                src="/assets/img/back.png"
+                alt="back"
+              />
+              <img src="/assets/img/skinny.png" alt="skinny" />
             </div>
-            <div>
-              <img src="/assets/img/skinny.png" alt="back" />
+            <div class="relative h-96">
+              <img
+                class="absolute -z-10 scale-[2] translate-x-6 translate-y-8"
+                src="/assets/img/back.png"
+                alt="back"
+              />
+              <img src="/assets/img/skinny.png" alt="skinny" />
             </div>
           </div>
         </section>
+        <section class="">
+          <div class="relative w-full h-[480px] bg-black">
+            <div
+              class="absolute -z-10 top-0 left-0 w-full h-full bg-yellow-500 skew-y-[-5deg] origin-bottom-left"
+            ></div>
+            <div class="px-[170px] mt-[180px]">
+              <h2 class="font-montserrat font-semibold text-48 text-white">
+                <span class="text-yellow">Акції</span> та запобігання
+              </h2>
+              <p class="font-montserrat font-light text-32 text-white">
+                Встигни урвати собі
+              </p>
+              <div>
+                <div>
+                  <h2
+                    class="font-montserrat font-bold text-[52px] text-[#252525] text-left uppercase mt-36"
+                  >
+                    Російський корабель
+                  </h2>
+                  <p
+                    class="text-white font-montserrat font-regular text-24 text-left max-w-[587px]"
+                  >
+                    Купи футболку і 10% з кожної покупки піде на потреби ЗСУ,
+                    купи стильну футболку і підтримай свого брата на фронті
+                  </p>
+                  <button
+                    class="font-montserrat font-extrabold text-20 text-white text-center border bg-yellow max-w-[200px] h-[60px] w-full"
+                  >
+                    ДЕТАЛЬНІШЕ
+                  </button>
+                </div>
+                <img src="" alt="" />
+                <img src="" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="max-w-[1103px] h-[675px] mx-[169px]">
+            <h2
+              class="font-montserrat font-bold text-72 text-center text-[#F1F1F1] mt-24 mx-auto"
+            >
+              Топ <span class="text-yellow">продаж</span>
+            </h2>
+            <p
+              class="font-montserrat_alternates font-light text-32 text-center text-gray-700"
+            >
+              Те, що вам подобається
+            </p>
+            <div class="mt-[95px]">
+              <ul class="flex space-x-6 justify-center items-center">
+                <li
+                  class="font-montserrat font-regular text-24 text-white cursor-pointer hover:text-yellow-400 transition-all"
+                >
+                  Усе
+                </li>
+                <li
+                  class="font-montserrat font-regular text-24 text-white cursor-pointer hover:text-yellow-400 transition-all"
+                >
+                  Гуртки
+                </li>
+                <li
+                  class="font-montserrat font-regular text-24 text-white cursor-pointer hover:text-yellow-400 transition-all"
+                >
+                  Гуртки
+                </li>
+                <li
+                  class="font-montserrat font-regular text-24 text-white cursor-pointer hover:text-yellow-400 transition-all"
+                >
+                  Гуртки
+                </li>
+                <li
+                  class="font-montserrat font-regular text-24 text-white cursor-pointer hover:text-yellow-400 transition-all"
+                >
+                  Гуртки
+                </li>
+                <li
+                  class="font-montserrat font-regular text-24 text-white cursor-pointer hover:text-yellow-400 transition-all"
+                >
+                  Гуртки
+                </li>
+                <li
+                  class="font-montserrat font-regular text-24 text-white cursor-pointer hover:text-yellow-400 transition-all"
+                >
+                  Гуртки
+                </li>
+                <li
+                  class="font-montserrat font-regular text-24 text-white cursor-pointer hover:text-yellow-400 transition-all"
+                >
+                  Гуртки
+                </li>
+              </ul>
+            </div>
+            <div class="flex justify-between mt-24">
+              <div class="max-w-[229px] h-[325px]">
+                <img src="/assets/img/t-shirt.png" alt="t-shirt" />
+                <h2
+                  class="font-montserrat font-light text-20 text-white text-center mt-5"
+                >
+                  Футболка Біла
+                </h2>
+                <p
+                  class="font-montserrat font-bold text-24 text-center text-[#F0F0F0]"
+                >
+                  230₴
+                </p>
+              </div>
+              <div class="max-w-[229px] h-[325px]">
+                <img class="mt-3" src="/assets/img/skinny.png" alt="skinny" />
+                <h2
+                  class="font-montserrat font-light text-20 text-white text-center mt-5"
+                >
+                  Футболка Біла
+                </h2>
+                <p
+                  class="font-montserrat font-bold text-24 text-center text-[#F0F0F0]"
+                >
+                  230₴
+                </p>
+              </div>
+              <div class="max-w-[229px] h-[325px]">
+                <img src="/assets/img/t-shirt.png" alt="t-shirt" />
+                <h2
+                  class="font-montserrat font-light text-20 text-white text-center mt-5"
+                >
+                  Футболка Біла
+                </h2>
+                <p
+                  class="font-montserrat font-bold text-24 text-center text-[#F0F0F0]"
+                >
+                  230₴
+                </p>
+              </div>
+              <div class="max-w-[229px] h-[325px]">
+                <img class="mt-3" src="/assets/img/skinny.png" alt="skinny" />
+                <h2
+                  class="font-montserrat font-light text-20 text-white text-center mt-5"
+                >
+                  Футболка Біла
+                </h2>
+                <p
+                  class="font-montserrat font-bold text-24 text-center text-[#F0F0F0]"
+                >
+                  230₴
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="max-w-[1099px] h-[1576px] mx-[170px]">
+            <div>
+              <h2
+                class="font-montserrat font-bold text-72 text-center text-[#F1F1F1] mt-56 mx-auto"
+              >
+                Ката<span class="text-yellow">лог</span>
+              </h2>
+              <p
+                class="font-montserrat_alternates font-light text-32 text-center text-gray-700"
+              >
+                Вибирай все, що до душі
+              </p>
+            </div>
+            <div class="grid grid-cols-3 gap-x-[45px] gap-y-[29px] mt-48">
+              <div
+                class="max-w-[347px] h-[400px] bg-[#101010] flex flex-col items-center justify-between p-6"
+              >
+                <img src="/assets/img/skinny.png" alt="skinny" />
+                <div class="text-center">
+                  <h2 class="font-montserrat font-bold text-32 text-white">
+                    Худі
+                  </h2>
+                  <p
+                    class="font-montserrat_alternates font-light text-14 text-yellow"
+                  >
+                    Еко матеріали
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-[347px] h-[400px] bg-[#101010] flex flex-col items-center justify-between p-6"
+              >
+                <img src="/assets/img/t-shirt.png" alt="t-shirt" />
+                <div class="text-center">
+                  <h2 class="font-montserrat font-bold text-32 text-white">
+                    Футболка
+                  </h2>
+                  <p
+                    class="font-montserrat_alternates font-light text-14 text-yellow"
+                  >
+                    Еко матеріали
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-[347px] h-[400px] bg-[#101010] flex flex-col items-center justify-between p-6"
+              >
+                <img src="/assets/img/skinny.png" alt="skinny" />
+                <div class="text-center">
+                  <h2 class="font-montserrat font-bold text-32 text-white">
+                    Худі
+                  </h2>
+                  <p
+                    class="font-montserrat_alternates font-light text-14 text-yellow"
+                  >
+                    Еко матеріали
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-[347px] h-[400px] bg-[#101010] flex flex-col items-center justify-between p-6"
+              >
+                <img src="/assets/img/skinny.png" alt="skinny" />
+                <div class="text-center">
+                  <h2 class="font-montserrat font-bold text-32 text-white">
+                    Худі
+                  </h2>
+                  <p
+                    class="font-montserrat_alternates font-light text-14 text-yellow"
+                  >
+                    Еко матеріали
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-[347px] h-[400px] bg-[#101010] flex flex-col items-center justify-between p-6"
+              >
+                <img src="/assets/img/t-shirt.png" alt="t-shirt" />
+                <div class="text-center">
+                  <h2 class="font-montserrat font-bold text-32 text-white">
+                    Футболка
+                  </h2>
+                  <p
+                    class="font-montserrat_alternates font-light text-14 text-yellow"
+                  >
+                    Еко матеріали
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-[347px] h-[400px] bg-[#101010] flex flex-col items-center justify-between p-6"
+              >
+                <img src="/assets/img/skinny.png" alt="skinny" />
+                <div class="text-center">
+                  <h2 class="font-montserrat font-bold text-32 text-white">
+                    Худі
+                  </h2>
+                  <p
+                    class="font-montserrat_alternates font-light text-14 text-yellow"
+                  >
+                    Еко матеріали
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-[347px] h-[400px] bg-[#101010] flex flex-col items-center justify-between p-6"
+              >
+                <img src="/assets/img/skinny.png" alt="skinny" />
+                <div class="text-center">
+                  <h2 class="font-montserrat font-bold text-32 text-white">
+                    Худі
+                  </h2>
+                  <p
+                    class="font-montserrat_alternates font-light text-14 text-yellow"
+                  >
+                    Еко матеріали
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-[347px] h-[400px] bg-[#101010] flex flex-col items-center justify-between p-6"
+              >
+                <img src="/assets/img/t-shirt.png" alt="t-shirt" />
+                <div class="text-center">
+                  <h2 class="font-montserrat font-bold text-32 text-white">
+                    Футболка
+                  </h2>
+                  <p
+                    class="font-montserrat_alternates font-light text-14 text-yellow"
+                  >
+                    Еко матеріали
+                  </p>
+                </div>
+              </div>
+              <div
+                class="max-w-[347px] h-[400px] bg-[#101010] flex flex-col items-center justify-between p-6"
+              >
+                <img src="/assets/img/skinny.png" alt="skinny" />
+                <div class="text-center">
+                  <h2 class="font-montserrat font-bold text-32 text-white">
+                    Худі
+                  </h2>
+                  <p
+                    class="font-montserrat_alternates font-light text-14 text-yellow"
+                  >
+                    Еко матеріали
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="max-w--[732px] items-center">
+            <div>
+              <h2
+                class="font-montserrat font-bold text-72 text-center text-[#F1F1F1] mt-56 mx-auto"
+              >
+                Відг<span class="text-yellow">уки</span>
+              </h2>
+              <p
+                class="font-montserrat_alternates font-light text-32 text-center text-gray-700"
+              >
+                Тільки подивися, що про нас говорить <br />
+                твоя сусідка
+              </p>
+            </div>
+            <div class="flex justify-between mt-36 max-w-[712px] mx-[350px]">
+              <img src="/assets/icons/arrow-left.svg" alt="arrow-left" />
+              <img
+                class="h-[900px] max-w-[439px] mr-4"
+                src="/assets/img/iphone.png"
+                alt="telephone"
+              />
+              <img
+                class="-translate-x-20"
+                src="/assets/icons/arrow-right.svg"
+                alt="arrow-right"
+              />
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <div>
+              <h2
+                class="font-montserrat font-semibold text-48 text-left text-[#F1F1F1] mt-56 mx-auto"
+              >
+                Ще є <span class="text-yellow">сумніви?</span>
+              </h2>
+              <p
+                class="font-montserrat_alternates font-light text-32 text-left text-gray-700"
+              >
+                Тоді подивися це відео і сам все зрозумієш
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <div>
+              <h2
+                class="font-montserrat font-bold text-72 text-center text-[#F1F1F1] mt-56 mx-auto"
+              >
+                Зв'яжіться з <span class="text-yellow">нами</span>
+              </h2>
+              <p
+                class="font-montserrat_alternates font-light text-32 text-center text-gray-700"
+              >
+                Це швидко та зручно
+              </p>
+            </div>
+            <div class="bg-black flex items-center justify-center">
+              <form class="space-y-7">
+                <div>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Ваше ім'я"
+                    class="w-[454px] px-6 py-3 bg-[#191919] placeholder:text-yellow-400 border-none outline-none skew-x-[-10deg] rounded-none shadow-lg text-white"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Email"
+                    class="w-[454px] px-6 py-3 bg-[#191919] placeholder:text-yellow-400 border-none outline-none skew-x-[-10deg] rounded-none shadow-lg text-white"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Телефон"
+                    class="w-[454px] px-6 py-3 bg-[#191919] placeholder:text-yellow-400 border-none outline-none skew-x-[-10deg] rounded-none shadow-lg text-white"
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Примітка"
+                    class="w-[454px] px-6 py-3 bg-[#191919] placeholder:text-yellow-400 border-none outline-none skew-x-[-10deg] rounded-none shadow-lg text-white not-italic"
+                  />
+                </div>
+              </form>
+            </div>
+            <button
+              class="mt-12 uppercase max-w-[200px] h-[60px] bg-yellow-400 font-montserrat font-extrabold text-20 w-full text-black-400 shadow-[0_0px_15px_#FFC700]"
+            >
+              Відправити
+            </button>
+          </div>
+        </section>
       </main>
-      <footer></footer>
+      <footer class="mt-60"></footer>
     </body>
   </body>
 </html>

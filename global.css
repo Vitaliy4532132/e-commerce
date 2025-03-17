@@ -12,10 +12,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.container {
-  @apply max-w-[174px] mx-auto;
-  padding-left: 174px;
-  padding-right: 174px;
+.my-container {
+  @apply max-w-[1100px] mx-auto px-[170px];
 }
 .custom-img {
   width: 133px;
