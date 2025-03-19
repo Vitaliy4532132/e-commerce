@@ -13,13 +13,18 @@ body {
   background-position: center;
 }
 .my-container {
-  @apply max-w-[1100px] mx-auto px-[170px];
+  @apply max-w-[1280px] mx-auto px-[20px];
+}
+.my-container-header {
+  @apply max-w-[1200px] mx-auto px-[20px];
+}
+.my-container-sm {
+  @apply max-w-[969px] mx-auto px-[20px];
 }
 .custom-img {
   width: 133px;
   height: 133px;
 }
-/* Custom Font Classes - Use if you need more specific control */
 .font-inter-regular {
   font-family: "Inter", sans-serif;
   font-weight: 400;
